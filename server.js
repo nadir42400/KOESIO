@@ -4,7 +4,7 @@ const db = require('./database/config');
 const app = express();
 const cors = require('cors');
 const session = require('express-session');
-const port = process.env.PORT || 4242;
+const port = process.env.PORT || 4242;  
 
 app.set('view engine, ejs');
 
